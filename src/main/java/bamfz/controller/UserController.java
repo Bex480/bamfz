@@ -1,7 +1,7 @@
 package bamfz.controller;
 
-import bamfz.dto.RequestUserDto;
-import bamfz.dto.ResponseUserDto;
+import bamfz.dto.user.RequestUserDto;
+import bamfz.dto.user.ResponseUserDto;
 import bamfz.service.UserService;
 
 import org.springframework.web.bind.annotation.GetMapping;
