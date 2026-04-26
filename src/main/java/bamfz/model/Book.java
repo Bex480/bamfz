@@ -5,6 +5,7 @@ import jakarta.persistence.*;
 @Entity
 @Table(name = "books")
 public class Book {
+    // Ovo je primary key
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
